@@ -1,11 +1,18 @@
-  class DataTypesInJava {
-
+  class DataTypesInJava {  
   
-
-   public static void main(String []args) {
+  
+   public static void main(String []args) {byte a = 12;
+     System.out.println(a); //
      
-     int a = 12;
-     int b = 24;
+ //    int a = 10;
+     
+     
+     
+     char names='a';
+      System.out.println(names); //
+      
+      int this_is_ok ;
+      int thisIsOk;
      
      
    }
