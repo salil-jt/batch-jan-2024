@@ -1,3 +1,9 @@
+### Assignment 3 (01/31)
+**Operators in Java **
+1. Practice Short circuit operators
+2. Practice Ternary operator
+3. Evaluate a few expressions using operator precedence
+
 ### Assignment 2 (01/30)
 **Creating Git repo and Java Installation**
 1. Practice Arithmetic Operators (mostly focus on increment and decrement operators)
