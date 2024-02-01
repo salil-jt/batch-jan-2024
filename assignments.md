@@ -1,3 +1,9 @@
+### Assignment 4 (02/01)
+**Control Statement in Java **
+1. Practice if else statements
+2. Practice switch statements. Execute the programs in the  document shared.
+3. Iteration statements - for, while
+
 ### Assignment 3 (01/31)
 **Operators in Java **
 1. Practice Short circuit operators
