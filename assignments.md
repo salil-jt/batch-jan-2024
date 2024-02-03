@@ -1,11 +1,19 @@
+### Assignment 4 (02/02)
+**Iteration Statements - for, while, do while**
+1. Go through all the Iteration Statements discussed in the class
+2. Write a program to calculate factorial of a number using while loop.
+3. Write a program to print only the even numbers from 1 to 100.
+
+
+
 ### Assignment 4 (02/01)
-**Control Statement in Java **
+**Control Statement in Java**
 1. Practice if else statements
 2. Practice switch statements. Execute the programs in the  document shared.
 3. Iteration statements - for, while
 
 ### Assignment 3 (01/31)
-**Operators in Java **
+**Operators in Java**
 1. Practice Short circuit operators
 2. Practice Ternary operator
 3. Evaluate a few expressions using operator precedence
