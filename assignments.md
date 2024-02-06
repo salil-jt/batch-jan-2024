@@ -1,3 +1,18 @@
+### Assignment 8 (02/06)
+**Programs**
+1. Write a program to add two matrices and store the result in a new matrix.
+2. Try out various versions of the prime number program.
+	* Using a variable (count)
+	* Using a variable (count) and break
+	* using a count and a flag + break
+	* using only flag and break
+3. Coding Standard
+	* Class Naming - use camel case notations
+	* Create separate files for different programs
+	
+
+
+
 ### Assignment 7 (02/05)
 **Arrays In Java, Try few programs**
 1. Go through the arrays lecture, notes and programs.
