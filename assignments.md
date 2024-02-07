@@ -1,3 +1,16 @@
+### Assignment 8 (02/07)
+**Programs**
+1. Write a program to find if a number is a spy number
+	* A number is defined as a spy number if the sum of its individual digits = product of its individual digits.
+	* Eg: 123 is a spy number because sum and product of individual digits is same => 1+2+3 = 6 , 1*2*3 = 6
+	* Eg: 324 is not a spy number because sum and product of individual digits is not same => 3+2+4 = 9 , 3*2*4 = 24
+2. Write a program to find if a number is a pallindrome number
+	* A number is defined as a pallindrome number if the number = reverse of the number
+	* Eg: 121 is a pallindrome number because number and reverse of a number both are same => 121 = 121 (in reverse)
+	* Eg: 123 is not a pallindrome number because number and reverse of a number both are not same => 123 != 321 (in reverse)
+	
+
+
 ### Assignment 8 (02/06)
 **Programs**
 1. Write a program to add two matrices and store the result in a new matrix.
