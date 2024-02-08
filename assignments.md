@@ -1,3 +1,9 @@
+### Assignment 9 (02/08)
+**Classes and Objects**
+1. Go through the theory doc and understand the basic concepts of OOPs
+2. Go through the basics of class/objects.
+3. Create a class and two objects of that class.
+
 ### Assignment 8 (02/07)
 **Programs**
 1. Write a program to find if a number is a spy number
