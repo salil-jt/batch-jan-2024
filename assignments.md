@@ -1,3 +1,15 @@
+### Assignment 10 (02/09)
+**Class and Objects**
+1. Practice creating classes , multiple objects, methods (with no return and with return, with params, without params)
+2. Assignment on Classes and objects
+	1. Create a Student class with age, birthYear and noOfFriends.
+	2. Create atleast 5 student objects.
+	3. Print sum of all noOfFriends.
+	4. In the class, create a method which prints the age group of the student depending on age. Eg: For age, 1-12 => print kid, 13 -> 19 => print teen , 20 - 45 => print adult, above 45 => print senior
+	5. In the class, create a method which returns the sum of the digits of the birthYear
+	
+
+
 ### Assignment 9 (02/08)
 **Classes and Objects**
 1. Go through the theory doc and understand the basic concepts of OOPs
