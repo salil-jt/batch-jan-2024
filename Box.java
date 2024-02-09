@@ -14,11 +14,11 @@ class Box {
   
   
   //Parameterized constructor
-  Box(double w, double h, double d){
+  Box(double w, double height, double depth){
    System.out.println("In Box Parameterized constructor");
     width = w;
-  	height = h;
-  	depth = d;
+  	this.height = height; //Use this to resolve name-space collisions.
+  	depth = depth; //that's why depth is set to 0.
   }
   
   
@@ -78,7 +78,7 @@ class BoxDemo {
 	System.out.println("Vol1:"+vol1);
 	System.out.println("Execution done for mybox");
 	
-
+/*
 	Box mybox_1 = new Box(); //2,2,2
 	mybox_1.setDim(15,12,70);
 
@@ -103,7 +103,7 @@ class BoxDemo {
 	
 	double size = mybox_2.calculateSize(3,8);
 	System.out.println("Size is : "+size);
-
+*/
 	
 
 	
