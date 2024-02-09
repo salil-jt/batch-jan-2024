@@ -30,12 +30,13 @@ class BoxDemo {
 	System.out.println("Box_1 depth:"+mybox_1.depth);
 	System.out.println("Box_1 volume:"+ (mybox_1.width*mybox_1.height*mybox_1.depth));
 	
+	/*  Assigning a reference to an object
 	Box b1 = new Box();
 	b1.height=15;
 	b1.width=12;	
 	b1.depth=5;	
 	
-	/*  Assigning a reference to an object
+	
 	Box b2 = b1;
 	System.out.println("B1 width: "+b1.width);
 	System.out.println("B2 depth: "+b2.depth);
