@@ -35,6 +35,7 @@ class BoxDemo {
 	b1.width=12;	
 	b1.depth=5;	
 	
+	/*  Assigning a reference to an object
 	Box b2 = b1;
 	System.out.println("B1 width: "+b1.width);
 	System.out.println("B2 depth: "+b2.depth);
@@ -53,7 +54,7 @@ class BoxDemo {
 //	System.out.println("B1 depth after3: "+b1.depth); // null. -> NullPointerException
 	System.out.println("B2 depth after3: "+b2.depth);
 	
-	 
+	 */
 	
   
 }
