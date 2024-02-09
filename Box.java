@@ -16,6 +16,20 @@ class Box {
 	System.out.println("Box depth:"+depth);	
   
   }
+  
+  
+  void setDim(double w, double h, double d){
+  	width = w;
+  	height = h;
+  	depth = d;
+  
+  }
+  
+  double calculateSize(double w, double h){
+  
+  	return w*h;
+  
+  }
  
   
   
@@ -25,14 +39,17 @@ class Box {
 class BoxDemo {
   public static void main(String args[]) {
   
+  
   	Box mybox = new Box();
   	System.out.println("In BoxDemo class");
- 	mybox.width=50;
-	mybox.height=10;
-	mybox.depth=20;
+  	
+  	//call print method before setting the values
+  	mybox.print();
+  	
 
-	//call the print method
-	//mybox.print();
+	//call setDim by passing in the width,height,depth
+	mybox.setDim(50,10,20);
+
 
 	//call the volume method
 	
@@ -42,9 +59,7 @@ class BoxDemo {
 	
 
 	Box mybox_1 = new Box();
-	mybox_1.width=15;
-	mybox_1.height=12;
-	mybox_1.depth=70;
+	mybox_1.setDim(15,12,70);
 
 	//mybox_1.print();
 	double vol2 = mybox_1.volume();
@@ -59,12 +74,14 @@ class BoxDemo {
 
 
 	Box mybox_2 = new Box();
-	mybox_2.width=5;
-	mybox_2.height=2;
-	mybox_2.depth=8;
-	//mybox_2.print();	
+
+	mybox_2.setDim(5,2,8);
 
 	mybox_2.volume();
+	
+	
+	double size = mybox_2.calculateSize(3,8);
+	System.out.println("Size is : "+size);
 
 	
 
