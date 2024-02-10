@@ -1,3 +1,28 @@
+### Assignment 12 (02/11)
+**Real life problem - Employee class**
+1. Create a class Employee,
+	* With age, salaryPerDay and noOfWorkingDays attributes
+	* A method to compute monthly salary, which will return the monthly salary which is calculated as salaryPerDay*noOfWorkingDays
+	* If age is >40, add an extra bonus of 100 per working day to the monthly salary. If age is >60, add an extra bonus of 200 per working day to the monthly salary.
+	* Create multiple employees with the following data. (Values are comma separated - first value is age, second is salaryPerDay, third is noOfWorkingDays)
+		*  employee1 - (26, 1000, 27)
+		*  employee2 - (39, 1250, 25)
+		*  employee3 - (41, 1100, 29)
+		*  employee4 - (53, 1050, 26)
+		*  employee5 - (62, 1150, 24)
+	* Print out the monthly salary for each employee and find out the employee with maximum salary.
+
+
+### Assignment 11 (02/10)
+**Class and Objects - Create Calculator class**
+1. Practice creating classes , multiple objects, constructors (default and parameterized)
+2. Create a Calculator class which performs addition, multiplication and division. From the CalculatorDemo.java file, create objects and perform operations.
+	1. The multiply method should take 2 int parameters and return an int
+	2. The multiply method should take 3 int parameters and return an int
+	3. The divide method should take 2  double  parameters and return an double
+	4. The subtract method should take 2 int parameters and return an int
+
+
 ### Assignment 10 (02/09)
 **Class and Objects**
 1. Practice creating classes , multiple objects, methods (with no return and with return, with params, without params)
