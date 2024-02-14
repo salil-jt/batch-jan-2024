@@ -1,12 +1,18 @@
 class Teacher{
-static int count;
+static int count=2;
 int id;
 int age;
 Teacher(int id,int age){
+System.out.println("In the constructor");
 this.id=id;
 this.age=age;
 }
-
+//This is a static block
+static {
+    System.out.println("Static block initialized.");
+    count = count*4;
+    //id = id+1;// non-static variable id cannot be referenced
+}
 
 
 
@@ -42,7 +48,9 @@ class StaticMethodExamples {
   public static void main(String args[]) {
   
   Teacher t1 = new Teacher(10,20);
-  t1.m3();
- t1.m2();
+  System.out.println(Teacher.count);
+  Teacher t2 = new Teacher(15,21);
+  //t1.m3();
+//  t1.m2();
   
   } }
