@@ -1,3 +1,12 @@
+### Assignment 14 (02/14)
+**Recursion, Static variables,static methods and static blocks**
+1. Write a recursive solution for fibonaaci series. - Practice and understand the flow
+2. Call By Value, Call By Reference - revise
+3. Practice Final Variable program.
+4. Static variables, static methods and static blocks - Create a simple program as discussed in class.
+
+
+
 ### Assignment 13 (02/13)
 **CallByValue, CallByReference,Recursion**
 1. Write a recursive solution for fibonaaci series.
