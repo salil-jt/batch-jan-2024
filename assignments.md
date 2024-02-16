@@ -1,3 +1,41 @@
+### Assignment 16 (02/15)
+**Weekend assignment**
+1. Create a class Student,
+	* With age, id,marks and section attributes. Age and id are int field, marks is an array and section is a char
+	* The marks attribute should hold marks of 4 subjects. 
+	* Assume marks of each subject are in the range of 1 to 100 only.
+	* Assume the sections the students can be will be one of - A, B, C, D, E only
+	* Add constructors to the class
+	* If the section attribute is not passed, set the default section to 'E'
+	* Write method to return total marks of the student. When computing total marks, choose the marks of the three best subjects. Eg: If marks is {50,35,40,60} , the method should return = 50+40+60 = 150
+		* Think if it will help if you create this as a class attribute
+	* Write a method which returns the grade of the student based on the total marks. Grades are defined below:
+		* 270 - 300 marks - Grade 'A'
+		* 250 - 269 marks - Grade 'B'
+		* 200 - 249 marks - Grade 'C'
+		* 150 - 199 marks - Grade 'D'
+		* 100 - 149 marks - Grade 'E'
+		* <100	    marks - Grade 'F'
+	* Create multiple student with the your choice of data.
+		*  One example, age-12 , id-10 , marks - {50,35,40,60}, section - 'B'
+		*  Create atleast 10-12 students and test out your program with different scenarios
+	* The program should print out the following:
+		* Total number of students.
+		* Id with the total marks for each student.
+		* The student id with highest marks. (If two or more students have the same highest marks, printing any of the student is fine)
+		* The student id with lowest marks.  (If two or more students have the same lowest marks, printing any of the student is fine)
+		* Print out number of students in each section. Eg: Section - A, number of students - 3 Section - B, number of students - 2 etc
+			* If a section doesn't have any students, it should print 0.
+			* Think how you will do this efficiently
+2. 	Things to keep in mind:
+	* Use proper method names, variables when creating the program.
+	* Once you have a working program think of ways you can improve upon the program.
+
+### Assignment 15 (02/15)
+**Class Composition**
+1. Take any real-life example and create a class structure using class composition. For example: Car has tyres, seats, wheel
+
+
 ### Assignment 14 (02/14)
 **Recursion, Static variables,static methods and static blocks**
 1. Write a recursive solution for fibonaaci series. - Practice and understand the flow
