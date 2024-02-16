@@ -3,10 +3,53 @@ class CompareEntertainmentsUsingInheritance
     public static void main(String arg[])
     {
     
+    Entertainment e;
+    Movie m = new Movie();
+    e = m ;
+	m.name = "Swades";
+    System.out.println("Movie : "+m.name);
+    System.out.println("Entertainment:"+e.name);
+
+   
+   
+   System.out.println("Movie stuntMaster: "+m.stuntMaster);
+//   System.out.println("Entertainment stuntMaster:"+e.stuntMaster);//This is not possible
+    
+    
+    Drama d = new Drama();
+	e = d; 
+	
+	
+	//m = d; //incompatible types: Drama cannot be converted to Movie
+
+    
+    
+    Entertainment ent1;
+    Drama d1 = new Drama();
+    ent1 = d1; //ent1 is drama
     
     
     
     
+  //  Drama d2 = ent1;// incompatible types: Entertainment cannot be converted to Drama
+    
+    ent1 = m ;
+    
+    
+   Drama d2 = (Drama)ent1;
+   
+   
+   
+   
+   Entertainment ent9;
+	Circus c9 = new Circus();
+	ent9 = c9;
+	Drama d3 = (Drama) ent9;
+	Drama d3 = (Circus) ent9;
+
+    
+    
+    /*
         Movie julai = new Movie();
         julai.name = "Julai";
         julai.director = "Trivikram";
@@ -44,7 +87,7 @@ class CompareEntertainmentsUsingInheritance
         jumbo.collectionsRestOfTheDays = 234936725.09;
     
         compareEntertainments(julai,jumbo,ramayan);
-        
+        */
     
     }
     
