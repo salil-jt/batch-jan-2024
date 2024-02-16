@@ -52,5 +52,15 @@ class StaticMethodExamples {
   Teacher t2 = new Teacher(15,21);
   //t1.m3();
 //  t1.m2();
+  methodInThisClass();
   
-  } }
+  } 
+  
+  static void methodInThisClass(){
+  	System.out.println("In this method");
+  
+  }
+  
+  
+  
+  }
