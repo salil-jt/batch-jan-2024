@@ -1,3 +1,34 @@
+### Assignment 19 (02/19)
+**Inheritance - Assignment-2**
+1. Write a Java program to create a class called Employee with attributes - perDaySalary and daysWorked attributes methods called work() and getSalary(). 
+	* work() method prints out - "In Employee work method"
+	* getSalary() method calculates salary as perDaySalary*daysWorked
+2. Create a subclass of the Employee class called HRManager that overrides the work() method and getSalary() method
+	* work() method prints out - "In HRManager work method"
+	* getSalary() - It will add 100 Rs extra per day and then calculate salary
+3. Create a subclass of the Employee class called SoftwareDeveloper that overrides the work() method  and getSalary() method
+	* work() method prints out - "In SoftwareDeveloper work method"
+	* getSalary() - It will add 250 Rs extra per day and then calculate salary
+4.	Create 	HRManager and SoftwareDeveloper objects and call the work() method  and getSalary() method. They should invoke the methods of the child class. 
+5.  Create Employee object and call the work() method  and getSalary() method. They should invoke the methods of the base class. 
+
+
+### Assignment 18 (02/19)
+**Inheritance - Assignment-1**
+1. Define a class named Shape with a constructor that accepts a width and height value.
+2. Define two sub-classes: 1) a Triangle class and 2) a Rectangle class. These 2 classes will Inherit the 2 values from the Shape class
+3. The program should calculate the area of the Shapes
+4. Area of a triangle is calculated as: (height * base) / 2  (base is the same as width)
+5. Area of a rectangle is calculated as: height * width 
+6. Create multiple triangle and rectangle objects and invoke the the getArea() Method. It should return the area accordingly.
+7. Eg:
+	* For an triangle with a base of 2 and a height of 5 the area would be 5. 
+	* For a rectangle with a base (length) of 5 and a base of 3 the area would be 15
+
+
+
+
+
 ### Assignment 17 (02/16)
 **Class Inheritance, Overiding**
 1. Look at all the programs discussed in class for Inheritance
