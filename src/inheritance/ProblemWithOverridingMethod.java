@@ -39,7 +39,7 @@ void useWood() {
 
 
 
-public class ProblemWithOverriding {
+public class ProblemWithOverridingMethod {
 public static void main(String[] args) {
 	Table t  = new Table();
 	t.paint();
