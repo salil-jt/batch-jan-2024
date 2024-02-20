@@ -1,4 +1,4 @@
-### Assignment 19 (02/19)
+### Assignment 19 (02/20)
 **Inheritance - Assignment-2**
 1. Write a Java program to create a class called Employee with attributes - perDaySalary and daysWorked attributes methods called work() and getSalary(). 
 	* work() method prints out - "In Employee work method"
