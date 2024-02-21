@@ -1,3 +1,16 @@
+### Assignment 20 (02/21)
+**Abstract Classes**
+1. Create an abstract class Animal with methods to represent common behaviours of animals.
+2. Add  makeSound() and move() abstract methods to Animal class
+3. Create concrete Animal subclasses (Eg: Lion, Elephant,Snake etc) and implement those abstract methods.
+4. In each implemented abstract method add a print statement of how that animal will behave
+5. Test your implementation :
+	* You should not be able to create objects of Animal class
+	* Create instances of various animal objects and store them in an Animal reference array.
+	* Invoke methods  makeSound() and move() methods of the objects created. 
+
+
+
 ### Assignment 19 (02/20)
 **Inheritance - Assignment-2**
 1. Write a Java program to create a class called Employee with attributes - perDaySalary and daysWorked attributes methods called work() and getSalary(). 
