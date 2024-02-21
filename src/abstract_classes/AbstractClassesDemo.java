@@ -7,9 +7,10 @@ public static void main(String[] args) {
 	
 	Shape s2; //You can have a reference of the Shape class
 	
-	Rectangle r1 = new Rectangle();
+	Rectangle r1 = new Rectangle(1,2);
+	System.out.println(r1.getArea());
 	
-	s2 = r1;
+	
 	
 }
 }
@@ -18,12 +19,30 @@ public static void main(String[] args) {
 
 abstract class Shape{
 	
-	
+    abstract double getArea(); 
 	
 	
 	
 }
 
-class Rectangle extends Shape{
+ class Rectangle extends Shape{ ////Rectangle is a concrete class
+
+	    double length;
+	    double breadth;
+
+	    Rectangle(double length, double breadth)
+	    {
+	        this.length = length;
+	        this.breadth = breadth;
+	    }
+
+	 
+	 double getArea()
+	    {
+	        return length * breadth;
+	    }
+
+	
+	
 
 }
