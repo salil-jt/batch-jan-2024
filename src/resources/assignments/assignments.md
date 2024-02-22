@@ -1,3 +1,17 @@
+### Assignment 21 (02/22)
+**Interfaces**
+1. Try out the example of Interfaces for the class TestAccountInterface mentioned in JavaTheory_10
+2. Create a program to explore interfaces by modeling a basic music player system
+	* Create an interface named Playable with methods play() and stop(). These methods represent the basic functionalities of playing and stopping music.
+	* Create an interface named MediaPlayer that extends Playable interface. Include additional methods with methods pause() and resume() for controlling media playback.
+	* Implement the Playable interface in a class named MusicTrack
+	* Implement the MediaPlayer interface in a class named SimpleMediaPlayer.
+	* Add respective System.out.println() statements to the method definitions.
+	* Create a main class named TestingMusicPlayerSystem and create instances of MusicTrack and SimpleMediaPlayer. Invoke methods play() and stop() and pause() and resume().
+	
+
+
+
 ### Assignment 20 (02/21)
 **Abstract Classes**
 1. Create an abstract class Animal with methods to represent common behaviours of animals.
