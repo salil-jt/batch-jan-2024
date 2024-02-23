@@ -1,3 +1,10 @@
+### Assignment 22 (02/23)
+**Packages and Access Modifiers**
+1. Go through the  concepts of packages and import statements
+2. Go through the concepts of access modifiers, take a look at how different modifiers behave across classes, sub-classes, non-subclasses within the same package and different package.
+3. Revise all what we have done till now and come up with questions if any.
+4. Start using IDE and move programs over to IDE.
+
 ### Assignment 21 (02/22)
 **Interfaces**
 1. Try out the example of Interfaces for the class TestAccountInterface mentioned in JavaTheory_10
