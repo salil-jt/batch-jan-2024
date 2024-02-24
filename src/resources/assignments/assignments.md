@@ -1,3 +1,43 @@
+### Assignment 24 (02/24)
+**Assignment covering concepts of inheritance,abstract classes, interfaces and access modifiers**
+1. In this assignment, you will develop a Java program to model a simple school management system.
+2. Create an abstract class named Person
+	* This will have 3 attributes - name,age,address which will be of type String, int, String
+	* name,age should be allowed to access only within that class while address can be left default.
+3. Create an interface - Details
+	* This will have one method - getDetails();
+4. Create a class Student which is a subclass of Person and needs to implement the Details interface. In addition to this:
+	* It has two more attributes studentId,grade of type int and char.
+	* These should be accessible only in the Student class
+	* The getDetails() method should print out the Student id, Student name and Student grade
+5. Create a class Teacher which is a subclass of Person and needs to implement the Details interface. In addition to this:
+	* It has three more attributes teacherId,subject,salary of type int, String,int
+	* The attributes teacherId,salary should be accessible only in the Teacher class
+	* The getDetails() method should print out the Teacher id, Teacher name and Teacher subject
+	* Teacher class should have a method, updateGrades which takes a Student reference and a grade. When this method is called, the grade passed should be assigned to the Student grade
+6. Create a main class in which:
+	* Create atleast 3 student objects. At the beginning set the grade of the students to blank. (' ')
+	* Create atleast 2 teacher objects.
+	* Now, use the updateGrades method and use the teacher objects to set the grades of students.
+	* Print the teacher details by calling the getDetails() method.
+	* Print the student details by calling the getDetails() method.
+	* Find out the youngest student and print the details.
+	* FInd out the teacher with highest salary and print the details
+	
+
+	
+
+### Assignment 23 (02/23)
+**Access Modifiers - Assignment**
+1. Create a class named Student to represent a student.
+2. Include private attributes such as studentId, name, age, and grade.
+3. Implement public methods to get and set these attributes.
+4. Include a public method displayStudentInfo() to display student information.
+5. Create a Main class with a main() method to test the student management system.
+6. Create instances of the Student class.
+7. Set student details using setter methods and display student information using the displayStudentInfo() method.
+
+
 ### Assignment 22 (02/23)
 **Packages and Access Modifiers**
 1. Go through the  concepts of packages and import statements
