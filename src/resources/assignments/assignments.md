@@ -1,3 +1,19 @@
+### Assignment 26 (02/27)
+**Exception Handling**
+1. Implement the concept of exception handling for input validation.
+	 * Create a class named UserInputValidator.
+	 * Implement a method named validateAge(int age) that validates the age of a user.
+	 * The method should throw a checked exception InvalidAgeException if the age is less than 0 or greater than 150.
+	 * It should display a nice message - "Invalid age! Age must be between 0 and 150."  when an exception is thrown
+	 * From a main class, call the method validateAge(50) -> This should give output as valid age
+	 * From a main class, call the method validateAge(160) -> This should throw an exception and give message - "Invalid age! Age must be between 0 and 150." 
+
+### Assignment 25 (02/27)
+**Exception Handling**
+1. Go over the class notes and programs once of the Exception Handling.
+2. Try out all the programs.
+
+
 ### Assignment 24 (02/24)
 **Assignment covering concepts of inheritance,abstract classes, interfaces and access modifiers**
 1. In this assignment, you will develop a Java program to model a simple school management system.
