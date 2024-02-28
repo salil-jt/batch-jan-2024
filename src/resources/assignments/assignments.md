@@ -1,3 +1,17 @@
+### Assignment 27 (02/28)
+**Strings**
+1. Go over the class notes and programs once of  String.
+2. Find total number of letters in a String Eg: Input: "This is a program" O/p: 14
+3. Count occurrence of a character in a String
+	* Consider a String s = "inheritance"
+	* Let's say we have to find out occurrence of 'i' in this string
+	* Our program should print out 2
+4. Write a Java program to reverse a String, do not use any direct methods
+	* Input : Java
+	* Output : avaJ
+
+
+
 ### Assignment 26 (02/27)
 **Exception Handling**
 1. Implement the concept of exception handling for input validation.
