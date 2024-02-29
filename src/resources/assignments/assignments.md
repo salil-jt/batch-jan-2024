@@ -1,3 +1,22 @@
+### Assignment 28 (02/29)
+**Strings - Programming Questions**
+1. Find Length Of Each Word In An Array. 
+	* Given array String a[]= {"hello","good","morning"};
+	* Output: hello -> 5 , good -> 4 , morning ->7
+2. Count number of letters of each word in the below sentence
+	* String input = “Good morning friends”;
+	* Output : Good - 4 , morning - 7 , friends - 7
+3. From the given array print words only starting with "Ro"
+	* String names[] = {“Abhishek”,”Roopa”,”Rohit”,”Rishi”,”Rohan”,”Vinod”,”Ronit”,”Naresh”}
+	* output: Roopa,Rohan,Ronit
+4. 	From the given array print words containing the words sh
+	* String names[] = {“Abhishek”,”Roopa”,”Rohit”,”Rishi”,”Rohan”,”Vinod”,”Ronit”,”Naresh”}
+	* output: Abhishek,Rishi,Naresh
+5. Given a string check if it is pallindrome or not.
+	* Input: madam , Output : true
+	* Input: teacher , Output: false	
+
+
 ### Assignment 27 (02/28)
 **Strings**
 1. Go over the class notes and programs once of  String.
