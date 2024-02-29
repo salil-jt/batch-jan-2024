@@ -8,7 +8,7 @@
 	* Output : Good - 4 , morning - 7 , friends - 7
 3. From the given array print words only starting with "Ro"
 	* String names[] = {“Abhishek”,”Roopa”,”Rohit”,”Rishi”,”Rohan”,”Vinod”,”Ronit”,”Naresh”}
-	* output: Roopa,Rohan,Ronit
+	* output: Roopa,Rohit,Rohan,Ronit
 4. 	From the given array print words containing the words sh
 	* String names[] = {“Abhishek”,”Roopa”,”Rohit”,”Rishi”,”Rohan”,”Vinod”,”Ronit”,”Naresh”}
 	* output: Abhishek,Rishi,Naresh
