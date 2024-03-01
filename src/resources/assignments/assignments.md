@@ -1,3 +1,33 @@
+### Assignment 30 (03/01)
+**ArrayList**
+1. Try out all the programs discussed in the class on ArrayList and its different methods
+2. Create a class Student with  attributes - name,age,id,marks
+	a. Create multiple objects of the Student class - atleast 5
+	b. Create an Student ArrayList and add all the student objects created to this array list
+	c. Now print out the names of the Students.
+
+
+### Assignment 29 (03/01)
+**Math class, Scanner**
+1. From numbers 1 to 100, :
+	* Use the Math class to get square root of all numbers
+	* For even numbers, consider the ceil of the square root and for odd numbers consider the floor of square root.
+	* Find out sum of the results we get in b.
+2. Take a input from the user, their full name, birth year and favorite number between 2-8, separated by ,
+	* For the name -> print the total no of characters.
+	* For the birth year -> Find sum of all digits and print it
+	* For the favorite number, find out number raised to power 3 and print it
+	* Finally print sum of all the three.
+	* Input-  Salil Sabnis,1992,6
+	* Output :
+		  noOfCharacters : 12
+		  sumOfDigitsOfYear : 21
+		  favoriteNumber : 216
+		  Sum of all : 249
+	
+	
+
+
 ### Assignment 28 (02/29)
 **Strings - Programming Questions**
 1. Find Length Of Each Word In An Array. 
