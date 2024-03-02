@@ -1,3 +1,95 @@
+### Assignment 31 (03/02)
+**ATM Banking Utility**
+1. Create a Banking Utility which supports deposit and withdrawal. 
+2. Create a BankAccount class :
+	* With one private attribute called balance 
+	* Whenever a new account is created set an initial balance for a user, say 1000 (balance = 1000)
+	* The class should have methods for deposit ,  withdrawal and printing balance . Method signatures :
+		* deposit(int amount) -> This should updated the balance
+		* withdraw(int amount) ->  This should updated the balance
+		* printBalance()  -> This should print the balance
+3. Once we start the program, print a welcome message to the user - "Welcome to XYZ banking company" and then the below options:		
+4. The main program  should keep on asking the user to select one of the following options.
+	* Press 1 to check balance
+	* Press 2 to deposit money
+	* Press 3 to withdraw money
+	* Press 4 to end the transaction
+5. Depending on what the user selects, perform the operation.
+	* Eg: If user selects 2, they should be given option to enter an amount and then we should update the balance.
+	* If the user select anything other than 4, they should be shown the options again.
+	* If the user selects 4, then end the program with a thankyou message - "Thankyou user for banking with us, let us know if you have  any feedback".
+6. While depositing, make sure to handle negative values and print out updated balance after each deposit.
+	* Eg 1: If the balance is 1000 and the user deposits 100 then the balance should be 1100
+	* Eg 2: If the balance is 1000 and the user deposits -100 then the user should be shown a message that cannot deposit negative amount and the  balance should be remain 1000
+7. While withdrawing, make sure the balance doesn't go to negative and print out updated balance after each deposit.
+	* Eg 1: If the balance is 1000 and the user withdraws 100 then the balance should be 900
+	* Eg 1: If the balance is 1000 and the user withdraws 1200 then the user should be shown a message that cannot withdraw, as the max balance available is less than amount to withdraw and the  balance should be remain 1000	
+8. Concepts to use for this program:
+	* Scanner
+	* while loop
+	* case statement
+	* if ,else blocks
+	* These are just some hints, you may use any concepts to accomplish the assignment 
+9. Sample Output should be something like this when you run the program:
+Welcome to XYZ banking company, 
+Please select one of the following options: 
+Press 1 to check balance
+Press 2 to deposit money
+Press 3 to withdraw money
+Press 4 to end the transaction
+1
+The current balance in your account  is :1000
+Please select one of the following options: 
+Press 1 to check balance
+Press 2 to deposit money
+Press 3 to withdraw money
+Press 4 to end the transaction
+2
+Enter an amount to deposit:
+100
+The current balance in your account  after depositing is :1100
+Please select one of the following options: 
+Press 1 to check balance
+Press 2 to deposit money
+Press 3 to withdraw money
+Press 4 to end the transaction
+3
+Enter an amount to withdraw:
+400
+The current balance in your account  after withdrawing is :700
+Please select one of the following options: 
+Press 1 to check balance
+Press 2 to deposit money
+Press 3 to withdraw money
+Press 4 to end the transaction
+2
+Enter an amount to deposit:
+-100
+Cannot deposit negative amount
+The current balance in your account  is :700
+Please select one of the following options: 
+Press 1 to check balance
+Press 2 to deposit money
+Press 3 to withdraw money
+Press 4 to end the transaction
+3
+Enter an amount to withdraw:
+800
+Cannot withdraw, as the max balance available is less than amount to withdraw
+The current balance in your account  is :700
+Please select one of the following options: 
+Press 1 to check balance
+Press 2 to deposit money
+Press 3 to withdraw money
+Press 4 to end the transaction
+4
+Thankyou for transacting with us!
+Thankyou user for banking with us, let us know if you have  any feedback
+	
+	
+
+
+
 ### Assignment 30 (03/01)
 **ArrayList**
 1. Try out all the programs discussed in the class on ArrayList and its different methods
@@ -13,6 +105,13 @@
 	* Use the Math class to get square root of all numbers
 	* For even numbers, consider the ceil of the square root and for odd numbers consider the floor of square root.
 	* Find out sum of the results we get in b.
+	* Eg: If we have numbers 1 to 5
+		* Square root of 1  : 1   		-> Since 1 is odd, consider floor -> 1
+		* Square root of 2  : 1.4142	-> Since 2 is even, consider ceil -> 2
+		* Square root of 3  : 1.7320	-> Since 3 is odd, consider floor -> 1
+		* Square root of 4  : 2			-> Since 4 is even, consider ceil -> 2
+		* Square root of 5  : 2.2360	-> Since 5 is odd, consider floor -> 2
+		* Sum should be 1 + 2 + 1 + 2 + 2 = 8
 2. Take a input from the user, their full name, birth year and favorite number between 2-8, separated by ,
 	* For the name -> print the total no of characters.
 	* For the birth year -> Find sum of all digits and print it
