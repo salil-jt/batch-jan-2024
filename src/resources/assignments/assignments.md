@@ -1,3 +1,16 @@
+### Assignment 32 (03/04)
+**ArrayList,LinkedList**
+1. Create a Player class with below attributes:
+	* name -> String
+	* age -> int
+	* favoriteSports -> List<String>
+2. Create atleast 3-4 Player objects
+	* Sample: Player1 -> name: Salil, age:31, 	favoriteSports:["Badminton","Cricket"]
+	* Sample: Player2 -> name: Ramesh, age:20, 	favoriteSports:["VolleyBall","Badminton","Kabbadi"]
+	* Sample: Player3 -> name: Suresh, age:15, 	favoriteSports:["Cricket","Hockey"]
+3. The program should find out how many players play Badminton In this case, it should print- No of players who play Badminton is : 2	
+
+
 ### Assignment 31 (03/02)
 **ATM Banking Utility**
 1. Create a Banking Utility which supports deposit and withdrawal. 
