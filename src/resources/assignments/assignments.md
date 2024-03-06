@@ -1,3 +1,24 @@
+### Assignment 34 (03/06)
+**List,Set - 2**
+1. Consider a College which has multiple teacher. Create a Teacher class with below attributes:
+	* name -> String
+	* age -> int
+	* subjectsTaught -> List<String>
+2. Create atleast 4-5 Teacher objects
+	* Sample: Teacher1 -> name: Salil, age:31, 	subjectsTaught:["Maths","Java","Science"]
+	* Sample: Teacher2 -> name: Ramesh, age:25, 	subjectsTaught:["English","Java","Commerce"]
+	* Etc
+3. At the end print out only the unique subjects being taught in the college.
+
+
+### Assignment 33 (03/06)
+**List,Set - 1**
+1. For numbers, 1 to 100:
+	* Create an ArrayList with all even numbers and find the sum of the even numbers.
+	* Create an ArrayList with all odd numbers  and find the sum of the odd numbers.
+
+
+
 ### Assignment 32 (03/04)
 **ArrayList,LinkedList**
 1. Create a Player class with below attributes:
