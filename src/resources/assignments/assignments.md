@@ -1,3 +1,19 @@
+### Assignment 35 (03/07)
+**Comparable and Comparator**
+1. Create a Mobile class with below attributes:
+	* brand -> String
+	* manufacturingYear -> int
+	* deviceId -> int
+2. Create multiple objects of the Mobile class
+	* Sample: Mobile -> type: Samsung, manufacturingYear:2001, 	deviceId: 101
+	* Sample: Mobile -> type: Apple, manufacturingYear:2012, 	deviceId: 109
+	* Sample: Mobile -> type: Apple, manufacturingYear:2019, 	deviceId: 114		
+	* Sample: Mobile -> type: Samsung, manufacturingYear:2016, 	deviceId: 118		
+	* Sample: Mobile -> type: Redmi, manufacturingYear:2014, 	deviceId: 119
+3. Add a custom sort such that the objects should be sorted in this order -> type, manufacturingYear and deviceId (Hint: Use Comparable)		
+4. Use the Teacher class created in Assignment 34 and add create multiple objects
+5. We should be able to provide a way to sort either on name or on age when we create a List of the objects and use the Collections.sort method (Hint: Use comparator)
+
 ### Assignment 34 (03/06)
 **List,Set - 2**
 1. Consider a College which has multiple teacher. Create a Teacher class with below attributes:
