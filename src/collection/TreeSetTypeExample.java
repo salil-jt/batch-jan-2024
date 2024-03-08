@@ -42,7 +42,6 @@ class Student1 implements Comparable<Student1>{
 	char section;
 	int rollNo;
 	public Student1(String name, int age,char section) {
-		super();
 		this.name = name;
 		this.age = age;
 		this.section=section;
