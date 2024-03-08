@@ -1,3 +1,12 @@
+### Assignment 36 (03/08)
+**HashMap**
+1. Go over all the programs taught in the class
+2. Write a Java Program to 
+	* Count  occurrence of each character of a given sentence
+	* Input : Hello World
+	* Output: {H=1, e=1, l=3, o=2, W=1,r=1,d=1}
+	* Try out with other input values as well
+
 ### Assignment 35 (03/07)
 **Comparable and Comparator**
 1. Create a Mobile class with below attributes:
