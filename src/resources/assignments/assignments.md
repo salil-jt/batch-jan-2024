@@ -1,3 +1,47 @@
+### Assignment 37 (03/10)
+**String, Collections, Maps**
+1. Write a Java Program to find if two strings are Anagrams.
+	1. Two strings are considered Anagrams if they are formed using same characters. Casing/Spaces can be ignored
+	2. Eg 1: Input : String first = "I am Lord Voldemort" and String second="Tom Marvolo Riddle"   ,Output : true
+	3. Eg 2: Input : String first = "I am Lord Voldemort" and String second="Tom Marvolo Riddlee"   ,Output : false
+2. Create a Student class with the attributes - studId,name, age, city, department
+	1. Once all the student data is added, print the data sorted by name, department and age,studId.
+	2. Give a count of number of students in each department. 
+	3. Give a count of number of students in each city
+	4. Give names of students department wise (This is a bit tricky, try it out. We will discuss in class)
+	5. Eg Students
+		* 101,"Salil",31,"Hyd","IT"
+		* 102,"Ramesh",28,"Hyd","CSE"
+		* 103,"Mahesh",29,"Pune","EIE"
+		* 104,"Mahesh",29,"Hyd","IT"
+		* 105,"Ankush",29,"Pune","ECE"
+		* 106,"Vishal",29,"Hyd","CSE"
+	6. Output:
+		* Make sure to create multiple objects and test the sort order is working correctly.
+		* For count of number of students in each department it should print this - EIE=1, CSE=2, ECE=1, IT=2
+		* For count of number of students in each city name it should print something like - Hyd=4, Pune=2
+		* For names of students department wise it should print - {EIE=[Mahesh], CSE=[Ramesh, Vishal], ECE=[Ankush], IT=[Mahesh, Salil]}
+3. Program to compute min, max, sum and average of numbers
+	* Take an input number from user in the range (5-10) asking for how many numbers they want to compute min, max, sum and average of numbers
+	* Based on the input keep taking the input from the users
+	* Print out the min, max, sum and average of numbers
+	* Program Execution: 
+	* Input on how many numbers you want to perform operations: 5
+	* Enter 5 numbers:
+		3
+		6
+		9
+		4
+		7
+	* Sorted Numbers: [3, 4, 6, 7, 9]
+	* Min:3
+	* Max:9
+	* Sum:29
+	* Avg: 5.8	
+
+	
+
+
 ### Assignment 36 (03/08)
 **HashMap**
 1. Go over all the programs taught in the class
