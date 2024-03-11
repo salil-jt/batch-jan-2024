@@ -1,3 +1,10 @@
+### Assignment 38 (03/11)
+**String, Collections, Maps**
+1. Write a Java Program to find the unique numbers in a given string.
+	* Input: 1,2,3,4,5,11,61,6,4,3,1 (Take this input from user - a comma separated list of numbers)
+	* Output : 8 (Total numbers that are unique are only 1,2,3,4,5,11,61,6 which is 8 numbers)
+	* This on how you can get this done in an easy way
+
 ### Assignment 37 (03/10)
 **String, Collections, Maps**
 1. Write a Java Program to find if two strings are Anagrams.
