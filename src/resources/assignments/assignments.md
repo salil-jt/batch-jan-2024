@@ -1,3 +1,14 @@
+### Assignment 39 (03/14)
+**Files - Reader and Writer**
+1. Create a Java Program which reads certain data from a file , performs some logic and then writes data to a file
+	* InputSentences.txt contains below lines:
+		* This is a sample text file
+		* This file contains text
+	* Read the above file and count the occurence of each word and store the result in a file (OutputWordCount.txt).
+	* OutputWordCount.txt contains:
+		* {a=1, contains=1, file=2, This=2, is=1, text=2, sample=1}
+	* Hint: Use BufferedReader, BufferedWriter, HashMap	
+
 ### Assignment 38 (03/11)
 **String, Collections, Maps**
 1. Write a Java Program to find the unique numbers in a given string.
