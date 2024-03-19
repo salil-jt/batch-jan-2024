@@ -1,3 +1,14 @@
+### Assignment 40 (03/19)
+**Maven**
+1. Go through the Theory Notes - Maven_Theory1
+2. Create a first simple maven project and add the joda time dependency to it
+3. Create Calculator Utility in the first simple maven project
+4. Now create a jar of this project -> Run Maven -> Install
+5. Create a second simple maven project and add the dependency of the first project
+6. Call the Calculator Utility from the second project
+7. In the project, I have added a file under src/main/resources folder showing the diagram. Go to https://excalidraw.com/ and Drag drop that file there
+
+
 ### Assignment 39 (03/14)
 **Files - Reader and Writer**
 1. Create a Java Program which reads certain data from a file , performs some logic and then writes data to a file
